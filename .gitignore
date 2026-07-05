@@ -1,0 +1,20 @@
+# R
+.Rproj.user/
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.bak
+
+# macOS
+.DS_Store
+
+# Deployment metadata
+rsconnect/
+
+# App output (results are written next to the data, not into the repo)
+*_Ergebnisse.xlsx
+
+# Quarto
+/.quarto/
+**/*.quarto_ipynb

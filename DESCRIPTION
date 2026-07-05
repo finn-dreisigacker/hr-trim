@@ -1,0 +1,26 @@
+Package: HRTrim
+Title: Marker-Based Heart Rate Analysis
+Version: 0.0.0.9100
+Authors@R: 
+    person("Finn", "Dreisigacker", , "dreisigacker.finn@web.de", role = c("aut", "cre"))
+Description: A local Shiny application for marker-based heart rate analysis of
+    Polar CSV files. Provides an Excel-like column picker (time/hr), start/end
+    trimming, %HRmax and lactate-threshold training zones, and a continuously
+    appended Excel export for sport science workflows.
+License: MIT + file LICENSE
+Imports:
+    shiny,
+    bslib,
+    shinyjs,
+    plotly,
+    DT,
+    shinyFiles,
+    fs,
+    openxlsx,
+    jsonlite
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
